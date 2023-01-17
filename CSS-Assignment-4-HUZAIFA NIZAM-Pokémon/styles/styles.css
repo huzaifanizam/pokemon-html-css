@@ -1,0 +1,80 @@
+body {
+    background-image: url("background/background.jpg");
+    /* background: transparent url(../img/chrome/content_bg.png) left top; */
+}
+
+.top {
+    padding-top: 0px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border: none;
+    height: 60px;
+}
+
+
+.mid {
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    height: 70px;
+    width: 90px;
+    padding-top: 0px;
+    border: none;
+    
+}
+.line {
+    padding-top: 0px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+
+}
+
+.first {
+    width: 70%;
+    display: inline-block;
+}
+
+.second {
+    width: 28%;
+    display: inline-block;
+    height: 40px;
+}
+
+.second .econd {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: rebeccapurple;
+
+}
+
+.second .third {
+    height: 200px;
+    display: inline-block;
+    width: 200px;
+}
+
+
+.row {
+    height: 200px;
+    width: 100%;
+
+}
+
+.ftext {
+    border-radius: 5px;
+    float: left;
+    padding-bottom: 0.5em;
+    width: 100%
+}
+
+
+.first.ftext {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: blue
+}
+
